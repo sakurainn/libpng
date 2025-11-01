@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "string_view": "cpp",
+        "format": "cpp",
+        "span": "cpp",
+        "random": "c",
+        "charconv": "c",
+        "optional": "c",
+        "system_error": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "ranges": "c",
+        "compare": "c",
+        "variant": "c",
+        "*.prebuilt": "c",
+        "queue": "c",
+        "vector": "c",
+        "text_encoding": "c",
+        "typeinfo": "c",
+        "stdlib.h": "c"
+    }
+}

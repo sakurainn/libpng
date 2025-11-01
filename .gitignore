@@ -167,3 +167,5 @@ pngprefix.h
 /pngunknown
 /pngvalid
 /timepng
+
+build/

@@ -138,8 +138,9 @@ if(PNG_BUILD_ZLIB)
 endif()
 
 # Find the zlib library.
-find_package(ZLIB REQUIRED)
-set(PNG_LINK_LIBRARIES ZLIB::ZLIB)
+# find_package(ZLIB REQUIRED)
+add_subdirectory(zlib)
+set(PNG_LINK_LIBRARIES zlib)
 
 # Find the math library (unless we already know it's not available or
 # not needed).
